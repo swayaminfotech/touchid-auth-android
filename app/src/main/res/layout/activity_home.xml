@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.HomeActivity"
+    style="@style/MainActivityTheme">
+
+    <ImageView
+        android:id="@+id/iv_success"
+        style="@style/ImageStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/success" />
+
+    <TextView
+        android:id="@+id/txt_success_authentication"
+        style="@style/TextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:text="@string/success_authentication" />
+
+</LinearLayout>

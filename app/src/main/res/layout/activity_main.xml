@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    style="@style/MainActivityTheme">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        style="@style/ImageStyle"
+        android:layout_width="@dimen/iv_logo_width"
+        android:layout_height="@dimen/iv_logo_height"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/tvStartAuthentication"
+        style="@style/TextviewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="@string/strat_authentication" />
+
+</LinearLayout>

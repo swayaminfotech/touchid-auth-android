@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FaceID</string>
+
+    <!--Main Screen-->
+    <string name="strat_authentication">Start Authentication</string>
+
+    <!--Biometricprompt Dialog-->
+    <string name="biometricprompt_dailog_title">Biometric login for my app</string>
+    <string name="biometricprompt_dailog_subtitle">Login with your biometric credential</string>
+    <string name="biometricprompt_dailog_cancel">Cancel</string>
+    <string name="authentication_success">Authentication Success</string>
+    <string name="authentication_cancel">Authentication Cancel</string>
+
+    <!--Home screen-->
+    <string name="success_authentication">You have Successfully logged in with Fingerprint authentication</string>
+
+</resources>
